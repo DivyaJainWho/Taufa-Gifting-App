@@ -13,9 +13,12 @@
 .item{
     width: 60px;
     height: 60px;
+    caret-color: transparent;
 }
 
 .catname{
     text-align: center;
     font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    caret-color: transparent;
+    color: black;
 }
