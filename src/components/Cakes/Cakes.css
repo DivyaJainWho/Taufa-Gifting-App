@@ -1,0 +1,41 @@
+.cake{
+    align-items: center;
+    background-color: rgb(235, 193, 200);
+    display: flex;
+    flex-direction: column;
+}
+
+.heading{
+    padding: 20px;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+}
+.link{
+    text-decoration: none;
+}
+.ui{
+    padding-left: 50px;
+}
+
+.addcart{
+    background-color: rgb(238, 116, 116);
+    color: white;
+    font-weight: bolder;
+    font-size: large;
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+}
+
+.content{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+}
+
+.title{
+    font-family: "Comic Sans MS", "Comic Sans", "cursive";
+    font-size: large;
+    font-weight: bold;
+}
+
+.prices{
+    font-size: large;
+}
