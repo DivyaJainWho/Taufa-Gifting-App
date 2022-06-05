@@ -19,7 +19,7 @@ function Cakes() {
                     <div className='prices'>{price}</div>
                 </div>
                 <div className="icons">
-                  <FontAwesomeIcon icon={faHeart} className="icon" size='2x'/>
+                  <FontAwesomeIcon icon={faHeart} className="ic" size='2x'/>
                 </div>
                 <button className='addcart'>Add To Cart<FontAwesomeIcon icon={faShoppingCart} className="icon"/></button>
             </div>

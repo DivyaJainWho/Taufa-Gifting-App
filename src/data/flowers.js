@@ -6,32 +6,38 @@ import f5 from "../images/flowers/f5.jpg"
 import f6 from "../images/flowers/f6.jpg"
 export const flowers = [
     {
-        image : {f1},
+        id:1,
+        image : f1,
         price : "$200",
         description : "Red roses"
     },
     {
-        image : {f2},
+        id:2,
+        image : f2,
         price : "$300",
         description : "Pink roses"
     },
     {
-        image : {f3},
+        id:3,
+        image : f3,
         price : "$400",
         description : "Light roses"
     },
     {
-        image : {f4},
+        id:4,
+        image : f4,
         price : "$250",
         description : "Purple flowers"
     },
     {
-        image : {f5},
+        id:5,
+        image : f5,
         price : "$200",
         description : "Light roses"
     },
     {
-        image : {f6},
+        id:6,
+        image : f6,
         price : "$500",
         description : "Pink Flowers"
     }

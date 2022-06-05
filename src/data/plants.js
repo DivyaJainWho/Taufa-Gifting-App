@@ -6,33 +6,39 @@ import p5 from "../images/plants/p5.jpg"
 import p6 from "../images/plants/p6.jpg"
 export const plants = [
     {
-        image : {p1},
+        id:1,
+        image : p1,
         price : "$200",
         description : "Money plant"
     },
     {
-        image : {p2},
+        id:2,
+        image : p2,
         price : "$300",
         description : "Aesthatic indoor plant"
     },
     {
-        image : {p3},
+        id:3,
+        image : p3,
         price : "$400",
-        description : "Bamboo"
+        description : "Snake Plant"
     },
     {
-        image : {p4},
+        id:4,
+        image : p4,
         price : "$250",
         description : "Aesthatic indoor plant"
     },
     {
-        image : {p5},
+        id:5,
+        image : p5,
         price : "$200",
         description : "Aesthatic indoor plant"
     },
     {
-        image : {p6},
+        id:6,
+        image : p6,
         price : "$200",
-        description : "Aesthatic indoor plant"
+        description : "Bamboo plant"
     }
 ]
