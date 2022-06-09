@@ -6,37 +6,37 @@ import per5 from "../images/personalised/per5.jpg"
 import per6 from "../images/personalised/per6.jpg"
 export const personalised = [
     {
-        id:1,
+        id:'per1',
         image : per1,
         price : "$200",
         description : "Photo frames"
     },
     {
-        id:2,
+        id:'per2',
         image : per2,
         price : "$300",
         description : "Customised mug"
     },
     {
-        id:3,
+        id:'per3',
         image : per3,
         price : "$400",
         description : "Customised pillow combo"
     },
     {
-        id:4,
+        id:'per4',
         image : per4,
         price : "$250",
         description : "Personalised diary"
     },
     {
-        id:5,
+        id:'per5',
         image : per5,
         price : "$200",
         description : "Personalised show piece"
     },
     {
-        id:6,
+        id:'per6',
         image : per6,
         price : "$500",
         description : "Personalised show piece"

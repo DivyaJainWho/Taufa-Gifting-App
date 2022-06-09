@@ -1,0 +1,11 @@
+.cart{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    caret-color: transparent;
+    background-color: rgb(235, 193, 200);
+  }
+
+  .pinkfavicon{
+    color: rgb(255, 0, 149);
+}

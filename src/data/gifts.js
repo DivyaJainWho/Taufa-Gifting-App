@@ -6,37 +6,37 @@ import g5 from "../images/gifts/g5.jpg"
 import g6 from "../images/gifts/g6.jpg"
 export const gifts = [
     {
-        id:1,
+        id:'g1',
         image : g1,
         price : "$200",
         description : "Funny toaster"
     },
     {
-        id:2,
+        id:'g2',
         image : g2,
         price : "$300",
         description : "Combo"
     },
     {
-        id:3,
+        id:'g3',
         image : g3,
         price : "$400",
         description : "Toy"
     },
     {
-        id:4,
+        id:'g4',
         image : g4,
         price : "$250",
         description : "Jar"
     },
     {
-        id:5,
+        id:'g5',
         image : g5,
         price : "$200",
         description : "Chocolates"
     },
     {
-        id:6,
+        id:'g6',
         image : g6,
         price : "$500",
         description : "Flowers"

@@ -4,7 +4,7 @@ import Navbar from '../Navbar/Navbar'
 
 function Landing() {
   return (
-    <div>
+    <div className='landing'>
         <Navbar/>
         <Corousels/>
     </div>

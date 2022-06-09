@@ -8,6 +8,8 @@ import Flowers from './components/Flowers/Flowers';
 import Personalised from './components/Personalised/Personalised';
 import Electronics from './components/Electronics/Electronics';
 import Gifts from './components/Gifts/Gifts';
+import WishList from './components/WishList/WishList';
+import Cart from './components/Cart/Cart';
 import {BrowserRouter as Router, Routes , Route} from 'react-router-dom'
 
 function App() {
@@ -15,7 +17,7 @@ function App() {
     <div className="App">
       <Router>
         <Header/>
-        <Routes>
+        <Routes className='main'>
           <Route path="/" exact element={<Landing/>}></Route>
           <Route path="/cakes" exact element={<Cakes/>}></Route>
           <Route path="/plants" exact element={<Plants/>}></Route>
@@ -24,6 +26,8 @@ function App() {
           <Route path="/electronics" exact element={<Electronics/>}></Route>
           <Route path="/flowers" exact element={<Flowers/>}></Route>
           <Route path="/personalised" exact element={<Personalised/>}></Route>
+          <Route path="/wishlist" exact element={<WishList/>}></Route>
+          <Route path="/cart" exact element={<Cart/>}></Route>
           <Route>404 not found</Route>
         </Routes>
       </Router>

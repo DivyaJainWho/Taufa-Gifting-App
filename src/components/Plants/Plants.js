@@ -1,16 +1,25 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
 import { plants } from '../../data/plants'
 import './Plants.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faHeart, faShoppingCart} from '@fortawesome/free-solid-svg-icons'
+import { useDispatch} from 'react-redux'
+import { addToCart, addToWishList } from '../../redux/actions/shoppingAction.js'
 
 function Plants() {
+  const dispatch = useDispatch();
+
+  const handleAddToCart =(product) =>{
+    dispatch(addToCart(product));
+  }
+
+  const handleAddToWishList =(product) =>{
+    dispatch(addToWishList(product));
+  }
   const renderlist = plants.map((product) =>{
     const {id, description, image, price} = product
     return (
     <div className='five wide column' key={id}>
-        <Link to ={`/plants/${id}`} className='link'>
         <div className='ui link cards'>
             <div className='card'>
                 <div className='image'><img src={image} alt={description}/></div>
@@ -19,18 +28,17 @@ function Plants() {
                     <div className='prices'>{price}</div>
                 </div>
                 <div className="icons">
-                  <FontAwesomeIcon icon={faHeart} className="ic" size='2x'/>
+                <button onClick={() => handleAddToWishList(product)} style={{backgroundColor:'transparent', border:'none'}}><FontAwesomeIcon icon={faHeart} className="ic" size='2x'/></button>
                 </div>
-                <button className='addcart'>Add To Cart<FontAwesomeIcon icon={faShoppingCart} className="icon"/></button>
-            </div>
+                <button className='addcart' onClick={() => handleAddToCart(product)}>Add To Cart<FontAwesomeIcon icon={faShoppingCart} className="icon"/></button>
+             </div>
         </div>
-        </Link>
     </div>)}
     )
    return (
      <div className='cake'>
        <h1 className='heading'>Get plants for your loved ones</h1>
-      <div className='ui grid container'>
+      <div className='ui grid container' style={{marginBottom:'0rem'}}>
         {renderlist}
       </div>
      </div>
