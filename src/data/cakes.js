@@ -8,37 +8,37 @@ export const cakes = [
     {
         id:'c1',
         image : c1,
-        price : "$200",
+        price : 200,
         description : "Vanila"
     },
     {
         id:'c2',
         image : c2,
-        price : "$300",
+        price : 300,
         description : "Chocolate"
     },
     {
         id:'c3',
         image : c3,
-        price : "$400",
+        price : 400,
         description : "Red velvet"
     },
     {
         id:'c4',
         image : c4,
-        price : "$250",
+        price : 250,
         description : "Dolphin customised"
     },
     {
         id:'c5',
         image : c5,
-        price : "$200",
+        price : 200,
         description : "Choco chips"
     },
     {
         id:'c6',
         image : c6,
-        price : "$500",
+        price : 500,
         description : "Barbie customised"
     }
 ]

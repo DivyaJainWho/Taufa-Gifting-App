@@ -8,37 +8,37 @@ export const plants = [
     {
         id:'p1',
         image : p1,
-        price : "$200",
+        price : 200,
         description : "Money plant"
     },
     {
         id:'p2',
         image : p2,
-        price : "$300",
+        price : 300,
         description : "Aesthatic indoor plant"
     },
     {
         id:'p3',
         image : p3,
-        price : "$400",
+        price : 400,
         description : "Snake Plant"
     },
     {
         id:'p4',
         image : p4,
-        price : "$250",
+        price : 250,
         description : "Aesthatic indoor plant"
     },
     {
         id:'p5',
         image : p5,
-        price : "$200",
+        price : 200,
         description : "Aesthatic indoor plant"
     },
     {
         id:'p6',
         image : p6,
-        price : "$200",
+        price : 200,
         description : "Bamboo plant"
     }
 ]

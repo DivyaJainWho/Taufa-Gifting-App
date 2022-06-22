@@ -25,7 +25,7 @@ function Plants() {
                 <div className='image'><img src={image} alt={description}/></div>
                 <div className='content'>
                     <div className='title'>{description}</div>
-                    <div className='prices'>{price}</div>
+                    <div className='prices'>${price}</div>
                 </div>
                 <div className="icons">
                 <button onClick={() => handleAddToWishList(product)} style={{backgroundColor:'transparent', border:'none'}}><FontAwesomeIcon icon={faHeart} className="ic" size='2x'/></button>

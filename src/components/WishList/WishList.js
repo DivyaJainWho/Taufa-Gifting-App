@@ -30,7 +30,7 @@ const WishList = () => {
                 <div className='image'><img src={image} alt={description}/></div>
                 <div className='content'>
                     <div className='title'>{description}</div>
-                    <div className='prices'>{price}</div>
+                    <div className='prices'>${price}</div>
                 </div>
                 <div className="icons">
                   <button onClick={() => handleRemoveFromWishList(product)} style={{backgroundColor:'transparent', border:'none'}}><FontAwesomeIcon icon={faHeart} className="pinkfavicon" size='2x'/></button>

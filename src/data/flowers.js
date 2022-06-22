@@ -8,37 +8,37 @@ export const flowers = [
     {
         id:'f1',
         image : f1,
-        price : "$200",
+        price : 200,
         description : "Red roses"
     },
     {
         id:'f2',
         image : f2,
-        price : "$300",
+        price : 300,
         description : "Pink roses"
     },
     {
         id:'f3',
         image : f3,
-        price : "$400",
+        price : 400,
         description : "Light roses"
     },
     {
         id:'f4',
         image : f4,
-        price : "$250",
+        price : 250,
         description : "Purple flowers"
     },
     {
         id:'f5',
         image : f5,
-        price : "$200",
+        price : 200,
         description : "Light roses"
     },
     {
         id:'f6',
         image : f6,
-        price : "$500",
+        price : 500,
         description : "Pink Flowers"
     }
 ]
