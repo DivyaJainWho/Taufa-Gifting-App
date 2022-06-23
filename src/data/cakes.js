@@ -9,36 +9,42 @@ export const cakes = [
         id:'c1',
         image : c1,
         price : 200,
-        description : "Vanila"
+        description : "Vanila",
+        quantity:1
     },
     {
         id:'c2',
         image : c2,
         price : 300,
-        description : "Chocolate"
+        description : "Chocolate",
+        quantity:1
     },
     {
         id:'c3',
         image : c3,
         price : 400,
-        description : "Red velvet"
+        description : "Red velvet",
+        quantity:1
     },
     {
         id:'c4',
         image : c4,
         price : 250,
-        description : "Dolphin customised"
+        description : "Dolphin customised",
+        quantity:1
     },
     {
         id:'c5',
         image : c5,
         price : 200,
-        description : "Choco chips"
+        description : "Choco chips",
+        quantity:1
     },
     {
         id:'c6',
         image : c6,
         price : 500,
-        description : "Barbie customised"
+        description : "Barbie customised",
+        quantity:1
     }
 ]

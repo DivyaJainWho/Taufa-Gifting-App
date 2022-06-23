@@ -9,6 +9,10 @@ const cartReducer = (state=initialState,action)=>{
             return {cartProducts: action.payload}
         case Type.REMOVE_FROM_CART:
             return {cartProducts: action.payload}
+        case Type.INCREASE_COUNT:
+            return {cartProducts: action.payload}
+        case Type.DECREASE_COUNT:
+            return {cartProducts: action.payload}
         default:
             return state;
     }

@@ -46,3 +46,27 @@ export const removeFromWishList =(wishListProduct) =>(dispatch, getState)=>{
       payload: wishListProducts.filter((t) => t.id !== wishListProduct.id)
   })
 }
+
+export const increasecount =(id) => (dispatch, getState)=>{
+    const { CartProducts: {cartProducts}} = getState();
+
+    const objIndex = cartProducts.findIndex((obj) => obj.id === id)
+    const updatedObj = { ...cartProducts[objIndex], quantity: cartProducts[objIndex].quantity+1};
+
+    dispatch({
+        type: Type.INCREASE_COUNT,
+        payload: [...cartProducts.slice(0,objIndex), updatedObj, ...cartProducts.slice(objIndex+1)]
+    })
+}
+
+export const decreasecount =(id) =>(dispatch, getState)=>{
+    const { CartProducts: {cartProducts}} = getState();
+
+    const objIndex = cartProducts.findIndex((obj) => obj.id === id)
+    const updatedObj = { ...cartProducts[objIndex], quantity: cartProducts[objIndex].quantity-1};
+
+    dispatch({
+        type: Type.DECREASE_COUNT,
+        payload: [...cartProducts.slice(0,objIndex), updatedObj, ...cartProducts.slice(objIndex+1)]
+    })
+}
